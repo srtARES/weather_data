@@ -5,9 +5,6 @@ import psycopg2.extras
 import os 
 
 app = Flask(__name__)
-CORS(app)
-DATABASE_URL="postgres://root:UwrZkz3gvU6cayjibCpazPpkdcA4p1VO@dpg-co5pcpm3e1ms73b9logg-a.oregon-postgres.render.com/assignment_o9dk"
-
 
 def fetch_weather_data():
     try:
