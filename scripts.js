@@ -7,7 +7,7 @@ if (cachedWeatherData) {
 }
 
 function fetchWeatherData() {
-    fetch('http://localhost:5000/weather')
+    fetch('https://weather-wh3k.onrender.com/weather')
         .then(response => response.json())
         .then(data => {
             if (data.length > 0) {
